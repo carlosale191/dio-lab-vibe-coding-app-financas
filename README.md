@@ -4,12 +4,6 @@
 
 Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
-## ✨ O que é Vibe Coding
-
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
-
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
-
 ## 🎯 Desafio
 
 Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
@@ -24,6 +18,8 @@ Precisamos de uma solução que permita **controlar as finanças por meio de uma
 Resultado: https://granaclaraweb.lovable.app
 
 ### 1. PRD e interações
+
+Prompt principal:
 
 ```
 # Contexto
@@ -188,7 +184,8 @@ Atue como um especialista em cibersegurança e revise este código para garantir
 
 ### 3. Funcionalidades
 
-- Registrar entradas e saídas diretamente via chat, onde o app identifica o tipo de gasto e o categoriza, sendo registrado apenas após confirmação do usuário.
+- Registrar entradas e saídas diretamente via chat, onde o app identifica o tipo de entrada/saída, atribui uma categoria e identifica a data que ocorreu.
+- É registrado apenas após confirmação do usuário.
 - Em caso de erro ou falha, o chat nunca reage silenciosamente.
 - Gerado relatórios para se ter ideia em que atividade e categorias que mais geram gastos.
 - Registro de saldo atual com atualizações em tempo real.
