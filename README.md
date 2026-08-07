@@ -17,7 +17,7 @@ Precisamos de uma solução que permita **controlar as finanças por meio de uma
 
 Resultado: https://granaclaraweb.lovable.app
 
-### 1. PRD e interações
+### 1. PRD + specs e outras interações
 
 Prompt principal:
 
